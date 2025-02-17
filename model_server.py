@@ -65,7 +65,7 @@ def record_result(note: str, score: float):
             with open(record_path, 'a') as f:
                 f.write(f"{note}\t{score}\n")
         except Exception as e:
-            print(f"记录失败: {str(e)}", file=sys.stderr)
+            print(f"Record failed: {str(e)}", file=sys.stderr)
 
 
 async def predict(content: str):
