@@ -1,0 +1,10 @@
+model_path: "path/to/your/model"
+tokens:
+  - "your-bearer-token-1"
+  - "your-bearer-token-2"
+host: "127.0.0.1"
+port: 3001
+record_path: "record.xls"
+record_enabled: true
+max_content_length: 3000
+
